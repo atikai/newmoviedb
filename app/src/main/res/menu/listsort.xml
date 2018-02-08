@@ -10,5 +10,9 @@
         android:id="@+id/top_rated"
         android:title="Top Rated Movies"/>
 
+    <item
+        android:id="@+id/upcoming"
+        android:title="Upcoming Movies"/>
+
 
 </menu>

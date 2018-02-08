@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class apiclient {
-    public static final String BASE_URL = "http://api.themoviedb.org/3/";
+    public static final String BASE_URL = "http://api.themoviedb.org/3/movie/";
     public static Retrofit getRetrofit(){
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)

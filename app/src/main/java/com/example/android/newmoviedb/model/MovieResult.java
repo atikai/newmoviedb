@@ -1,14 +1,15 @@
 package com.example.android.newmoviedb.model;
 
-/**
- * Created by Atika on 2/4/2018.
- */
-
-import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Result {
+import java.util.List;
+
+/**
+ * Created by Atika on 2/7/2018.
+ */
+
+public class MovieResult {
 
     @SerializedName("vote_count")
     @Expose
@@ -52,6 +53,7 @@ public class Result {
     @SerializedName("release_date")
     @Expose
     private String releaseDate;
+
 
     public Integer getVoteCount() {
         return voteCount;
@@ -164,5 +166,4 @@ public class Result {
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     }
-
 }
